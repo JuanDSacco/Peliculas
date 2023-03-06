@@ -9,6 +9,7 @@ import Sagas from './components/Sagas/Sagas';
 import SagaSeñorContainer from './components/Routes/SagaSeñorContainer/SagaSeñorContainer';
 import SagaSWContainer from './components/Routes/SagaSWContainer/SagaSWContainer';
 import SagaHPContainer from './components/Routes/SagaHPContainer/SagaHPContainer';
+import Nosotros from './components/Routes/Nosotros/Nosotros';
 
 
 
@@ -25,6 +26,7 @@ function App() {
               <Route path='/sagas/el-señor-de-los-anillos' element={<SagaSeñorContainer/>}/>
               <Route path='/sagas/starwars' element={<SagaSWContainer/>}/>
               <Route path='/sagas/harrypotter' element={<SagaHPContainer/>}/>
+              <Route path='/nosotros' element={<Nosotros/>}/>
             </Routes>
           </MovieProvider>
         <Footer/>
