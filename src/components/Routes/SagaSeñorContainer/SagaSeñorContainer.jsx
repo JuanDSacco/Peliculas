@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { getFirestore, collection, getDocs, query, where } from 'firebase/firestore';
-import SagaSeñor from "../SagaSeñor/SagaSeñor";
+import SagaSeñor from "../../Sagas/SagaSeñor/SagaSeñor";
 
 const SagaSeñorContainer = () => {
 

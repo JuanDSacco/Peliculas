@@ -6,7 +6,7 @@ import Home from './components/Routes/Home/Home';
 import Footer from './components/Footer/Footer';
 import FilterMovies from './components/Routes/FilterMovies/FilterMovies';
 import Sagas from './components/Sagas/Sagas';
-import SagaSeñorContainer from './components/Sagas/SagaSeñorContainer/SagaSeñorContainer';
+import SagaSeñorContainer from './components/Routes/SagaSeñorContainer/SagaSeñorContainer';
 import SagaSWContainer from './components/Routes/SagaSWContainer/SagaSWContainer';
 import SagaHPContainer from './components/Routes/SagaHPContainer/SagaHPContainer';
 
